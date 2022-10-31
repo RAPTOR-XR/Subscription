@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>   
+        
+<div class="row db-padding-btm db-attached">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="db-wrapper">
+                <div class="db-pricing-eleven db-bk-color-one">
+                    <div class="price">
+                        <sup>BDT</sup>500
+                            <small>per month</small>
+                    </div>
+                    <div class="type">
+                        GLOBALNET BRONZE
+                    </div>
+                
+                    <div class="pricing-footer">
+
+                        <a href="{% url 'subscribe' %}?sub_plan=Basic" class="btn db-button-color-square btn-lg">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="db-wrapper">
+            <div class="db-pricing-eleven db-bk-color-two popular">
+                <div class="price">
+                    <sup>BDT</sup>750
+                            <small>per month</small>
+                </div>
+                <div class="type">
+                    GLOBALNET SILVER
+                </div>
+                <ul>
+
+                    <li><i class="glyphicon glyphicon-print"></i>30+ Accounts </li>
+                    <li><i class="glyphicon glyphicon-time"></i>150+ Projects </li>
+                    <li><i class="glyphicon glyphicon-trash"></i>Lead Required</li>
+                </ul>
+                <div class="pricing-footer">
+
+                    <a href="{% url 'subscribe' %}?sub_plan=Medium" class="btn db-button-color-square btn-lg">Subscribe</a>
+                </div>
+            </div>
+                </div>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <div class="db-wrapper">
+            <div class="db-pricing-eleven db-bk-color-three">
+                <div class="price">
+                    <sup>BDT</sup>1500
+                            <small>per month</small>
+                </div>
+                <div class="type">
+                    GLOBALNET GOLD
+                </div>
+                <ul>
+
+                    <li><i class="glyphicon glyphicon-print"></i>30+ Accounts </li>
+                    <li><i class="glyphicon glyphicon-time"></i>150+ Projects </li>
+                    <li><i class="glyphicon glyphicon-trash"></i>Lead Required</li>
+                </ul>
+                <div class="pricing-footer">
+
+                    <a href="{% url 'subscribe' %}?sub_plan=Advanced" class="btn db-button-color-square btn-lg">Subscribe</a>
+                </div>
+            </div>
+                </div>
+        </div>
+    
+    </div>
+
+</div>
+</div>
+</body>
+</html>
